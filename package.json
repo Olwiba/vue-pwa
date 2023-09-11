@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "pinia": "^2.1.6",
+    "raygun4js": "^2.27.0",
     "register-service-worker": "^1.7.2",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
@@ -23,6 +24,7 @@
     "@tsconfig/node18": "^18.2.0",
     "@types/jsdom": "^21.1.1",
     "@types/node": "^18.17.5",
+    "@types/raygun4js": "^2.13.8",
     "@vitejs/plugin-vue": "^4.3.1",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
     "@vue/cli-plugin-pwa": "^5.0.8",

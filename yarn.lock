@@ -1407,6 +1407,11 @@
   resolved "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
+"@types/raygun4js@^2.13.8":
+  version "2.13.8"
+  resolved "https://registry.yarnpkg.com/@types/raygun4js/-/raygun4js-2.13.8.tgz#d7c33de8290f085738ea58ca4b93927c4259c0ba"
+  integrity sha512-RG1ZEXIxMcwFWogifxMwfBKSCt7Ftla08PXhtqTWFBSe/79+TBaT6AkZj2SgjC1el4DIGUrpOAVCpE27+Of9Gg==
+
 "@types/resolve@1.17.1":
   version "1.17.1"
   resolved "https://registry.npmjs.org/@types/resolve/-/resolve-1.17.1.tgz"
@@ -4621,6 +4626,11 @@ randombytes@^2.1.0:
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
   dependencies:
     safe-buffer "^5.1.0"
+
+raygun4js@^2.27.0:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/raygun4js/-/raygun4js-2.27.0.tgz#d7e1dbafae686d8bcd9dcb23c34a98bcb0ebb292"
+  integrity sha512-epLL8BIoUWo5jy4Ggq9Elmu4hnIuJgvi3fMtAVdqM8prgXJOX23jv0jM4QRAdHbIBJjj37S5Jb2T8IcFxUHApw==
 
 react-is@^18.0.0:
   version "18.2.0"
