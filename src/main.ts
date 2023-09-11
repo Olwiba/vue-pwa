@@ -7,8 +7,8 @@ import rg4js from 'raygun4js'
 import App from './App.vue'
 import router from './router'
 
-// rg4js('apiKey', 'aFEQze4ieuynqWaPvGcg');
-rg4js('apiKey', 'TESTING');
+rg4js('apiKey', 'aFEQze4ieuynqWaPvGcg');
+// rg4js('apiKey', 'TESTING');
 rg4js('enableCrashReporting', true);
 rg4js('enablePulse', true);
 
