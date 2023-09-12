@@ -11,6 +11,7 @@ rg4js('apiKey', 'aFEQze4ieuynqWaPvGcg');
 // rg4js('apiKey', 'TESTING');
 rg4js('enableCrashReporting', true);
 rg4js('enablePulse', true);
+rg4js('saveIfOffline', true);
 
 const app = createApp(App)
 
