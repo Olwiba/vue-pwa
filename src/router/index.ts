@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import rg4js from 'raygun4js'
 import HomeView from '../views/HomeView.vue'
-import rg4js from "raygun4js";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +21,8 @@ const router = createRouter({
   ]
 })
 
+// add tracking callback to the router after each route change
+// this will register the virtual page view with Raygun
 router.afterEach((to, from) => {
   rg4js('trackEvent', {
     type: 'pageView',

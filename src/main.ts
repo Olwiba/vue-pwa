@@ -7,14 +7,17 @@ import rg4js from 'raygun4js'
 import App from './App.vue'
 import router from './router'
 
-rg4js('apiKey', 'aFEQze4ieuynqWaPvGcg');
-// rg4js('apiKey', 'TESTING');
+// Raygun setup
+// please remember to replace the api key with your own
+rg4js('apiKey', 'ENTER_API_KEY_HERE');
 rg4js('enableCrashReporting', true);
 rg4js('enablePulse', true);
+// this enables raygun to save events if the user is offline
 rg4js('saveIfOffline', true);
 
 const app = createApp(App)
 
+// adding error handler middleware to the application
 app.config.errorHandler = function(err, vm, info) {
     rg4js('send', {
         error: err,
