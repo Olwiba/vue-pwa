@@ -1,6 +1,7 @@
-# vue-pwa
+# Vue PWA & Raygun demo
 
 This template should help get you started developing with Vue 3 in Vite.
+I have configured it so that it's a PWA with Raygun installed. 
 
 ## Recommended IDE Setup
 
